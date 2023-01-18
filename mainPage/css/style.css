@@ -1,0 +1,263 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navLogo {
+    width: 10rem;
+}
+
+#presentation {
+    background-color: #23395e;
+    background-image: url("/MainPage/images/WallpaperMainPage.jpg");
+    background-size: cover;
+    padding: 5rem;
+}
+
+#presentation p {
+    color: white;
+}
+
+.presentation h4,
+h6,
+h5,
+p {
+    color: white;
+}
+
+.presentation h4 {
+    font-size: 5rem;
+}
+
+.presentation h5 {
+    font-size: 2rem;
+}
+
+.presentation h4,
+h5 {
+    margin: 4rem;
+}
+
+.presentation h6,
+p {
+    font-size: 1.5rem;
+    width: 50%;
+    color: white;
+}
+
+.presentation hr {
+    margin-left: 4rem;
+    width: 10%;
+    color: white;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.container {
+    background-color: rgb(65, 64, 64);
+    opacity: 90%;
+    transition: 2s;
+}
+
+#carousel {
+    background-color: white;
+}
+
+#carousel h5 {
+    color: black;
+    width: 50%;
+    font-weight: 400;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0.20rem;
+}
+
+#carousel p {
+    color: black;
+    text-align: center;
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+}
+
+#socialMedia {
+    margin-top: 1rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #001542;
+}
+
+#socialMedia h1 {
+    font-weight: 400;
+    color: white;
+    font-weight: 300;
+}
+
+#socialMedia img {
+    width: 5%;
+    margin: 2rem;
+}
+
+.img {
+    margin: 0 auto;
+    position: relative;
+}
+
+.infoAssoc {
+    margin: 2rem;
+}
+
+#services h5,
+p {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contactSection {
+    position: relative;
+    left: 25rem;
+}
+
+#contactSection h5 {
+    color: #CC8D1A;
+    transition: 1s;
+    width: 100%;
+    position: relative;
+    right: 4rem;
+    text-align: center;
+}
+
+#contactSection p {
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+
+span {
+    color: #23395e;
+    font-weight: 500;
+}
+
+#contactSection .card-body {
+    border-color: none;
+}
+
+#contactSection .mail {
+    width: 120%;
+    position: relative;
+    right: 1rem;
+}
+
+#contactSection h5:hover {
+    color: #23395e;
+}
+
+#contactSection a {
+    text-decoration: none;
+    color: #CC8D1A;
+    font-weight: 700;
+    transition: 1s;
+    position: relative;
+    left: 2rem;
+}
+
+#contactSection a:hover {
+    color: #23395e;
+}
+
+#contactSection .card {
+    right: 2rem;
+}
+
+#associated .row {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#associated p {
+    color: black;
+    width: 90%;
+    text-align: center;
+}
+
+@media screen and (max-width:25rem) {
+    .navbar-toggler {
+        position: relative;
+        right: 20%;
+    }
+    #presentation {
+        width: 100%;
+    }
+    .presentation h4 {
+        font-size: 3rem;
+        position: relative;
+        right: 4rem;
+        top: 2rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #presentation hr {
+        width: 25%;
+        position: relative;
+        right: 3rem;
+    }
+    .presentation h5 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 120%;
+        position: relative;
+        right: 5rem;
+        text-align: center;
+    }
+    .presentation h6 {
+        font-size: 2rem;
+        font-weight: 300;
+        width: 115%;
+        position: relative;
+        right: 1rem;
+        text-align: center;
+    }
+    .container {
+        position: relative;
+        right: 2rem;
+    }
+    #presentation p {
+        font-size: 100%;
+        width: 100%;
+        text-align: justify;
+    }
+    #carousel {
+        text-align: center;
+    }
+    #carousel p {
+        font-weight: 250;
+    }
+    #associated p {
+        font-weight: 400;
+        font-size: 115%;
+        text-align: center;
+        width: 230%;
+        position: relative;
+        right: 8rem;
+    }
+    #associated img {
+        position: relative;
+        right: 2rem;
+    }
+    #contactSection .card {
+        position: relative;
+        right: 23rem;
+    }
+    #socialMedia img {
+        width: 10%;
+        position: relative;
+        right: 1rem;
+    }
+    #socialMedia h1 {
+        font-weight: 300;
+        position: relative;
+        right: 1rem;
+    }
+}
